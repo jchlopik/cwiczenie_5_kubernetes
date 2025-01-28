@@ -1,0 +1,24 @@
+{
+  "name": "cwiczenie_5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jchlopik/cwiczenie_5_kubernetes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jchlopik/cwiczenie_5_kubernetes/issues"
+  },
+  "homepage": "https://github.com/jchlopik/cwiczenie_5_kubernetes#readme",
+  "dependencies": {
+    "express": "^4.21.2",
+    "mongodb": "^6.12.0"
+  }
+}
