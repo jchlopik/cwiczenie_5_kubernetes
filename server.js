@@ -5,7 +5,7 @@ const port = 3000;
  
 // Połączenie z MongoDB
 //mongoose.connect('mongodb://localhost:27017/test', { useNewUrlParser: true, useUnifiedTopology: true });
-mongoose.connect('mongodb://mongodb:27017/test', { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect('mongodb://mongodb-service:27017/test', { useNewUrlParser: true, useUnifiedTopology: true });
  
 // Definicja schematu dla kolekcji 'humanitas'
 const HumanitasSchema = new mongoose.Schema({

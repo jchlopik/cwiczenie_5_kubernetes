@@ -3,10 +3,11 @@ kind: Service
 metadata:
   name: nodejs-app-service
 spec:
-  type: NodePort
-  ports:
-  - port: 80
-    targetPort: 3000
-    nodePort: 30847
   selector:
     app: nodejs-app
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 3000
+  type: LoadBalancer
+

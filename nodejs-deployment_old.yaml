@@ -14,6 +14,7 @@ spec:
     spec:
       containers:
       - name: nodejs-app
-        image: jacekchlopik/szkolenie_kubernetes:latest
+        image: adrianflakpl/nodejs-app-image:latest
         ports:
         - containerPort: 3000
+
